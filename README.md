@@ -1,6 +1,6 @@
 # VSCode
 Users Settings
-
+```js
 {
     "explorer.confirmDelete": false,
     "git.enableSmartCommit": true,
@@ -45,3 +45,4 @@ Users Settings
     "prettier.semi": false,
     "workbench.colorTheme": "Operator Mono Dark Theme",
 }
+```
