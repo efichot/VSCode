@@ -46,3 +46,30 @@ Users Settings
     "workbench.colorTheme": "Operator Mono Dark Theme",
 }
 ```
+Keybindings.json
+```js
+// Place your key bindings in this file to overwrite the defaults
+[{
+        "key": "a",
+        "command": "explorer.newFile",
+        "when": "filesExplorerFocus && !inputFocus"
+    }, {
+
+    },
+    {
+        "key": "shift+a",
+        "command": "explorer.newFolder",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    {
+        "key": "backspace",
+        "command": "deleteFile",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    },
+    {
+        "key": "alt+cmd+backspace",
+        "command": "-deleteFile",
+        "when": "explorerViewletVisible && filesExplorerFocus"
+    }
+]
+```
