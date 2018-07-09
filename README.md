@@ -18,7 +18,7 @@ Users Settings
     },
     "workbench.iconTheme": "material-icon-theme",
     "editor.renderWhitespace": "all",
-    "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontFamily": "Operator Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
     "editor.formatOnSave": true,
@@ -28,9 +28,7 @@ Users Settings
     "editor.letterSpacing": 0.5,
     "files.trimTrailingWhitespace": true,
     "editor.fontWeight": "400",
-    "prettier.eslintIntegration": true,
     "editor.cursorStyle": "line",
-    "editor.cursorWidth": 5,
     "editor.cursorBlinking": "solid",
     // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
     // You'll need to change this to a file URI scheme on your computer: https://en.wikipedia.org/wiki/File_URI_scheme
@@ -39,10 +37,16 @@ Users Settings
     "vscode_custom_css.imports": [
         "file:///Users/efichot/Documents/styles.css"
     ],
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
     "eslint.autoFixOnSave": true,
     "eslint.alwaysShowStatus": true,
-    "prettier.singleQuote": true,
-    "prettier.semi": false,
+    "prettier.disableLanguages": [
+        "js"
+    ],
+    "files.autoSave": "onFocusChange",
+    "editor.tabSize": 2,
     "workbench.colorTheme": "Operator Mono Dark Theme",
 }
 ```
