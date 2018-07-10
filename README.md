@@ -28,7 +28,7 @@ Users Settings
     "editor.letterSpacing": 0.5,
     "files.trimTrailingWhitespace": true,
     "editor.fontWeight": "400",
-    "editor.cursorStyle": "line",
+    "editor.cursorStyle": "block",
     "editor.cursorBlinking": "solid",
     // Very important: Install this plugin: https://github.com/be5invis/vscode-custom-css
     // You'll need to change this to a file URI scheme on your computer: https://en.wikipedia.org/wiki/File_URI_scheme
@@ -48,6 +48,7 @@ Users Settings
     "files.autoSave": "onFocusChange",
     "editor.tabSize": 2,
     "workbench.colorTheme": "Operator Mono Dark Theme",
+    
 }
 ```
 Keybindings.json
