@@ -1,5 +1,5 @@
 # VSCode
-Users Settings
+Users Settings:
 ```js
 {
     "explorer.confirmDelete": false,
