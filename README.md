@@ -69,7 +69,7 @@ Keybindings.json
     {
         "key": "backspace",
         "command": "deleteFile",
-        "when": "explorerViewletVisible && filesExplorerFocus"
+        "when": "filesExplorerFocus && !inputFocus"
     },
     {
         "key": "alt+cmd+backspace",
