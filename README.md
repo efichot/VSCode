@@ -48,7 +48,8 @@ Users Settings:
     "files.autoSave": "onFocusChange",
     "editor.tabSize": 2,
     "workbench.colorTheme": "Operator Mono Dark Theme",
-    
+    "editor.acceptSuggestionOnEnter": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
 }
 ```
 Keybindings.json
