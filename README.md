@@ -7,17 +7,10 @@ Users Settings:
     "git.confirmSync": false,
     "explorer.confirmDragAndDrop": false,
     "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressUpdateNotice": false,
+        "suppressShowKeyBindingsNotice": true,
         "suppressWelcomeNotice": true
     },
     "workbench.iconTheme": "material-icon-theme",
-    "editor.renderWhitespace": "all",
     "editor.fontFamily": "Operator Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontLigatures": true,
     "editor.minimap.enabled": false,
@@ -37,19 +30,25 @@ Users Settings:
     "vscode_custom_css.imports": [
         "file:///Users/efichot/Documents/styles.css"
     ],
-    "[javascript]": {
-        "editor.formatOnSave": false
-    },
+    // "[javascript]": {
+    //     "editor.formatOnSave": false
+    // },
     "eslint.autoFixOnSave": true,
     "eslint.alwaysShowStatus": true,
-    "prettier.disableLanguages": [
-        "js"
-    ],
+    // "prettier.disableLanguages": [
+    //     "js"
+    // ],
     "files.autoSave": "onFocusChange",
     "editor.tabSize": 2,
-    "workbench.colorTheme": "Operator Mono Dark Theme",
+    "workbench.colorTheme": "Oceanic Next (dimmed bg)",
     "editor.acceptSuggestionOnEnter": false,
     "editor.acceptSuggestionOnCommitCharacter": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "git.autofetch": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.eslintIntegration": true,
 }
 ```
 Keybindings.json
